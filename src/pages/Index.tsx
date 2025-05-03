@@ -7,14 +7,14 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
       <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold mb-2 text-red-700">Красный круг</h1>
-        <p className="text-xl text-gray-600">Символ энергии и страсти</p>
+        <h1 className="text-4xl font-bold mb-2 text-teal-600">Бирюзовый круг</h1>
+        <p className="text-xl text-gray-600">Символ гармонии и спокойствия</p>
       </div>
       
       <div 
-        className={`w-64 h-64 rounded-full bg-red-500 shadow-lg transition-all duration-300 ${isHovered ? 'scale-110 bg-red-400' : ''}`}
+        className={`w-64 h-64 rounded-full bg-teal-500 shadow-lg transition-all duration-300 ${isHovered ? 'scale-110 bg-teal-400' : ''}`}
         style={{
-          backgroundImage: 'linear-gradient(135deg, #ef4444 0%, #b91c1c 100%)'
+          backgroundImage: 'linear-gradient(135deg, #2dd4bf 0%, #0d9488 100%)'
         }}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
