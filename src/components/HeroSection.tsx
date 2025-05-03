@@ -17,7 +17,7 @@ const HeroSection = () => {
               Создаем <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">цифровые</span> истории, которые продают
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              MRKT — маркетинговое агентство полного цикла. Мы помогаем брендам захватывать внимание в социальных сетях и конвертировать его в продажи.
+              MRKT — маркетинговое агентство полного цикла. Мы помогаем брендам захватывать внимание в российских социальных сетях и конвертировать его в продажи.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600">
@@ -44,7 +44,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 flex items-center justify-center text-white">
                 <img 
                   src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?ixlib=rb-4.0.3&q=85&w=1920&h=1080&crop=entropy&cs=srgb" 
-                  alt="Social Media Marketing" 
+                  alt="Маркетинг в социальных сетях" 
                   className="w-72 h-72 md:w-88 md:h-88 object-cover rounded-xl"
                 />
               </div>
